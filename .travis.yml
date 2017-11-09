@@ -2,6 +2,9 @@ language: python
 notifications:
   email:
     - lewis.rodgers@accenture.com
-
+before_install:
+  - mkdir -p lib
 install:
   - pip install -r requirements.txt
+script:
+  - echo "No script to run"
