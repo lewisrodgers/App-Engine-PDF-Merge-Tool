@@ -1,0 +1,7 @@
+language: python
+notifications:
+  email:
+    - lewis.rodgers@accenture.com
+
+install:
+  - pip install -r requirements.txt
